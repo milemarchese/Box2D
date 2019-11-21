@@ -10,7 +10,7 @@ Run "build.sh"
 
 ## How to add your own test?
 
-* In "Testbed/Tests" add your new file .h, e.g. FooTest.h
+* In "Testbed/Tests" add your new file .h, e.g "FooTest.h"
 
 * Your file must look like this 
 
@@ -23,7 +23,7 @@ class FooTest : public Test {
 public:
 
 FooTest() {
-//your code
+    //your code
   }
 
 void Step(Settings* settings) {
