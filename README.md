@@ -52,7 +52,7 @@ Then,
 ```
 TestEntry g_testEntries[] =
 {{"Foo test" , FooTest::Create}, //your file
-{"Shape Cast", ShapeCast::Create }, //default tests...
+{"Shape Cast", ShapeCast::Create}, //default tests...
 ```
 
 Build again and success!
