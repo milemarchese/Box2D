@@ -2,12 +2,10 @@
 
 ## How to use Box2D Testbed
 
+```bash
+./premake5 gmake
+./build.sh
 ```
-$ ./premake5 gmake
-```
-
-Run "build.sh"
-
 ## How to add your own test
 
 * In "Testbed/Tests" add your new file .h, e.g "FooTest.h"
