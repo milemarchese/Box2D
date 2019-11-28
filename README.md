@@ -20,6 +20,8 @@ class FooTest : public Test {
 
 public:
 
+//additional classes can go here
+
 FooTest() {
     //your code
   }
@@ -40,7 +42,7 @@ static Test* Create() {
 
 #endif
 ```
-* Then go TestEntries.cpp
+* Go TestEntries.cpp
 
 First, in the header add:
 
